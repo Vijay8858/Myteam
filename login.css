@@ -1,0 +1,46 @@
+body{
+    background-image: url("ofcN7C.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.form{
+    background-color: black;
+    margin-left: 10%;
+    margin-top: 4%;
+    border: 5px solid rgba(228, 229, 247, 0.539);
+    height: 50vh;
+    width: 50vh;
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    box-shadow: 10px 10px 10px rgb(11, 9, 9) , 10px 10px 20px rgb(94, 148, 219);
+    border-radius: 10px;
+    padding-top: 2%;
+    
+}
+@media screen and (max-device-width: 800px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-size: 100% 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-device-width: 800px) {
+    .form{
+        width: 400px;
+        height: 300px;
+        background-color: rgb(15, 13, 13);
+        color:rgb(217, 207, 207);
+        padding-top: 8%;
+        margin-left: 25%;
+        margin-top: 25%;
+        box-shadow: 10px 10px 10px rgb(11, 9, 9) , 10px 10px 20px rgb(94, 148, 219);
+        border-radius: 10px;
+        
+    
+    
+    }
+}

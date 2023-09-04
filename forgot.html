@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="forgot.css">
+    <title>FORGET PASSWORD</title>
+    <script>
+        function myvalidate(form){
+            var NewPassword=form.newpassword.value;
+            var ConfirmNewpassword=form.Confirmpassword.value;
+
+            if(NewPassword.length===0){
+                alert("Enter password");
+                return false;
+            }
+            if(ConfirmNewpassword.length===0){
+                alert("Enter password");
+                return false;
+            }
+            if(NewPassword != ConfirmNewpassword){
+                alert("please check your password");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container">
+                    <h2>Password Reset</h2>
+                    <hr>
+                <form action="LoginSuccess.html"  onsubmit="return myvalidate(this);">
+                    <div class="form-group">
+                        NewPassword:<input type="password" class="form-control" id="password" name="newpassword"  style="width: 30%;">
+                      </div>
+                      <div class="form-group">
+                       ConfirmNewPassword: <input type="password" class="form-control" id="pwd" name="Confirmpassword"  style="width: 30%;">
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

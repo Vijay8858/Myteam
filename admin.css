@@ -1,0 +1,23 @@
+body{
+    background-image: url("admin-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.form{
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    border: 2px silver solid;
+    margin: 8% 10% 10% 35%;
+    background-color: rgb(208, 197, 197);
+    font-weight: bold;
+    position: fixed;
+
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+}

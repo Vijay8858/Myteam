@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+
+}
+.Register{
+    width: 50%;
+    height: 550px;
+    border: 2px solid black;
+    border-style: collapse;
+    margin-left: 28%;
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+}
+.page{
+    text-align: center;
+    padding-top: 20%;
+    color: rgb(4, 0, 11);
+    font-size: medium;
+    
+}

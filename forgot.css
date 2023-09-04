@@ -1,0 +1,23 @@
+body{
+    background-image: url("forgot-1.jpeg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.container{
+    align-items: center;
+    padding-left: 35%;
+    padding-top: 5%;
+    font-size: larger;
+
+}
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    width: 50%;
+    border: 2px solid black;
+}
+h2{
+    padding-left: 9%;
+    font-family: 'Times New Roman', Times, serif;
+}
